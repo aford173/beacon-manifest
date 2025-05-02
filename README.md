@@ -53,6 +53,14 @@ Setup the build folder for a BSP release:
 Note: The remaining instructions are for setting up a BSP release only. For setting
 up a demo, please see `imx-manifest/README-<demo>` for further instructions.
 
+Machine Name         | Description
+---------------------|---------------------------------------------------
+beacon-imx8mm-kit    | SOMIMX8MMx-10 or SOMIMX8MMx-11 w/ LWB5 Radio (Mini)
+beacon-imx8mm-12     | SOMIMX8MMx-12 w/ NXP8997 Wireless Radio (Mini)
+beacon-imx8mn-kit    | SOMIMX8MNx-10 or SOMIMX8MNx-11 w/ LWB5 Radio (Nano)
+beacon-imx8mn-12     | SOMIMX8MNx-12 w/ NXP8997 Wireless Radio (Nano)
+beacon-imx8mp-kit    | SOMIMX8MPx-10 w/ NXP8997 Wireless Radio (Plus)
+
 ```
 $: [MACHINE=<machine>] [DISTRO=fsl-imx-<backend>] source ./imx-setup-release.sh -b bld-<backend>
 
